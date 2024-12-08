@@ -1,0 +1,10 @@
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(221, 255, 255);
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.no_products_found{
+    font-size: xx-large;
+}

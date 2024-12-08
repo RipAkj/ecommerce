@@ -1,0 +1,60 @@
+svg{
+    height:42px;
+    width:47px;
+}
+.overall{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(12, 194, 210);
+}
+.logo{
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.store{
+    height: 42px;
+    width: 30px;
+}
+.main{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+}
+.main_option{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.main_underline{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+.cart_sign{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-self: center;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+}
+.cart_count{
+    height: fit-content;
+    font-size: 16px;
+    text-align: center;
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+}
